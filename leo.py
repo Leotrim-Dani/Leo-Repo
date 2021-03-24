@@ -15,5 +15,7 @@ second = \cf2 input \cf4 (\cf5 "Surname "\cf4 )\
 first = \cf2 input\cf4 (\cf5 'months '\cf4 )\
 second = \cf2 input\cf4 (\cf5 'weeks '\cf4 )\
 \cf2 print\cf4 (\cf5 'Your baby is ' \cf4 + first + \cf5 ' months' \cf4 + \cf5 ' and ' \cf4 + second + \cf5 ' weeks' \cf4 )\
+
+
 \
 }
