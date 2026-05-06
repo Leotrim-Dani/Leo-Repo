@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -f Makefile ]; then make lint-staged 2>/dev/null || true; elif [ -f package.json ]; then npm run lint --if-present 2>/dev/null || true; fi"
+          }
+        ]
+      }
+    ]
+  }
+}
